@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#div{
+width: 98%;
+height: 725px;
+background-color: silver;
+padding: 2%;
+}
+#maincontainer{
+    width: 57%;
+    height: 94%;
+    background-color: yellow;
+margin-right: 10px;
+float: left;
+padding: 2%
+}
+#sidebar{
+    width: 27%;
+    height: 91%;
+    background-color: yellow;
+float: left;
+padding: 2%;
+}

@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main div{
+    background-color: violet;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width:600px){
+.main{ 
+    display: flex;
+    justify-content: center;
+
+}
+.main div{
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    background-color: purple;
+} 
+}
